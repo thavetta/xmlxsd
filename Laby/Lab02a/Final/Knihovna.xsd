@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 sp1 (x64) (http://www.altova.com) by Tomáš Havetta (TRIGAN, s r.o.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Knihovna">
+		<xs:annotation>
+			<xs:documentation>Seznam knih</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Kniha" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autori">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Autor" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="Jmeno" type="xs:token" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Nazev" type="xs:token"/>
+							<xs:element name="Nakladatel">
+								<xs:simpleType>
+									<xs:restriction base="xs:token"/>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="RokVydani">
+								<xs:simpleType>
+									<xs:restriction base="xs:gYear"/>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Popis">
+								<xs:simpleType>
+									<xs:restriction base="xs:string"/>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Odkaz" type="xs:anyURI" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="ID" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:token"/>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="ISBN" type="xs:token"/>
+						<xs:attribute name="Cena">
+							<xs:simpleType>
+								<xs:restriction base="xs:decimal"/>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="PocetStranek" type="xs:unsignedShort"/>
+						<xs:attribute name="Zapujcena" type="xs:boolean"/>
+						<xs:attribute name="Jazyk" type="xs:language"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

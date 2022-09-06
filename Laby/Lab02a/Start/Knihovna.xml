@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Knihovna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Knihovna.xsd">
+	<Kniha ISBN="123456" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Ďáblova pevnost</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2011</RokVydani>
+	</Kniha>
+	<Kniha ISBN="1234567" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Strážcové Varadínu</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2009</RokVydani>
+	</Kniha>
+	<Kniha ISBN="12345678" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Milan Lasica"/>
+			<Autor Jmeno="Jiří Stránský"/>
+		</Autori>
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Nakladatel>Andrej Šťastný</Nakladatel>
+		<RokVydani>2010</RokVydani>
+	</Kniha>
+</Knihovna>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 sp1 (x64) (http://www.altova.com) by Tomáš Havetta (TRIGAN, s r.o.) -->
+<xs:schema xmlns:p="http://www.gopas.cz/kurz/popis/2019" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.gopas.cz/kurz/popis/2019" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Popis">
+		<xs:annotation>
+			<xs:documentation>Popis entity, max. 10 slov</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="p:SeznamSlov">
+				<xs:maxLength value="10"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Odkaz" type="xs:anyURI">
+		<xs:annotation>
+			<xs:documentation>Odkaz na entitu - URL</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="SeznamSlov">
+		<xs:list itemType="xs:string"/>
+	</xs:simpleType>
+</xs:schema>

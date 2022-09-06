@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Knihovna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Knihovna.xsd">
+	<Kniha ID="B-00001" ISBN="123456" Jazyk="cs" PocetStranek="491" Cena="299.90" Zapujcena="true">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Ďáblova pevnost</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2011</RokVydani>
+		<Popis>Historie a fikce</Popis>
+	</Kniha>
+	<Kniha ID="B-00002" ISBN="1234567" Jazyk="cs" PocetStranek="525" Cena="149" Zapujcena="false">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Strážcové Varadínu</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2009</RokVydani>
+		<Popis>Historie a fikce turecke valky</Popis>
+		<Odkaz>http://www.knihy.cz/cervenak/varadin.html</Odkaz>
+	</Kniha>
+	<Kniha ID="M-00003" ISBN="12345678" Jazyk="cs" Zapujcena="0">
+		<Autori>
+			<Autor Jmeno="Milan Lasica"/>
+			<Autor Jmeno="Jiří Stránský"/>
+		</Autori>
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Nakladatel>Andrej Šťastný</Nakladatel>
+		<RokVydani>neznámý</RokVydani>
+		<Popis>Pohled na existenci z jineho uhlu 1 2 3 4</Popis>
+	</Kniha>
+</Knihovna>

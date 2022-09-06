@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 sp1 (x64) (http://www.altova.com) by Tomáš Havetta (TRIGAN, s r.o.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Knihovna">
+		<xs:annotation>
+			<xs:documentation>Seznam knih</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Kniha" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autori">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Autor" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="Jmeno" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Nazev"/>
+							<xs:element name="Nakladatel"/>
+							<xs:element name="RokVydani"/>
+						</xs:sequence>
+						<xs:attribute name="ISBN"/>
+						<xs:attribute name="Jazyk"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

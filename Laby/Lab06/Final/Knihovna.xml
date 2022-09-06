@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 sp1 (http://www.altova.com) by Tomas Havetta (TRIGAN, spol. s r.o.) -->
+<Knihovna xmlns="http://www.trigan.cz/KurzAMF/Knihovna">
+	<Kniha ISBN="80-7199-060-4" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Kantorek Pavel"/>
+		</Autori>
+		<Nazev>Orbis Pictus</Nazev>
+		<Nakladatel>X-Egem</Nakladatel>
+		<RokVydani>2002</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha ISBN="978-606-8364-01-8" Jazyk="en">
+		<Autori>
+			<Autor Jmeno="Novac Elisaveta"/>
+		</Autori>
+		<Nazev>His Higness Vlad Tepes Draculea</Nazev>
+		<Nakladatel>Nova International Press</Nakladatel>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Historie realna</Zanr>
+	</Kniha>
+	<Kniha ISBN="978-0-8118-7831-9" Jazyk="en">
+		<Autori>
+			<Autor Jmeno="Benson Richard"/>
+		</Autori>
+		<Nazev>F in Exams - The Very Best Totally Wrong Test Answers</Nazev>
+		<Nakladatel>Chronicle Books</Nakladatel>
+		<RokVydani>2011</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha ISBN="978-80-86739-39-7" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Lasica Milan"/>
+			<Autor Jmeno="Stránský Jiří"/>
+		</Autori>
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Nakladatel>Nakladatelství Andrej Šťastný</Nakladatel>
+		<RokVydani>2010</RokVydani>
+		<Vazba>pevna</Vazba>
+		<Zanr>Fejetony</Zanr>
+	</Kniha>
+	<Kniha cs-kod="22-104-70" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Jirotka Zdeněk"/>
+		</Autori>
+		<Nazev>Saturnin</Nazev>
+		<Nakladatel>Československý spisovatel</Nakladatel>
+		<RokVydani>1970</RokVydani>
+		<Vazba>pevna</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha cs-kod="01-099-77" Jazyk="cs">
+		<Autori>
+			<Autor Jmeno="Seneca"/>
+		</Autori>
+		<Nazev>Útěchy</Nazev>
+		<Nakladatel>ODEON</Nakladatel>
+		<RokVydani>1977</RokVydani>
+		<Vazba>pevna</Vazba>
+		<Zanr>Filozofie</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="978-80-905053-0-8">
+		<Autori>
+			<Autor Jmeno="Žamboch Miroslav"/>
+		</Autori>
+		<Nazev>Drsný spasitel</Nazev>
+		<Nakladatel>EF</Nakladatel>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="978-80-7387-134-5">
+		<Autori>
+			<Autor Jmeno="Žamboch Miroslav"/>
+		</Autori>
+		<Nazev>Koniáš: Muž na stezce</Nazev>
+		<Nakladatel>Triton</Nakladatel>
+		<RokVydani>2008</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="978-80-7387-376-9">
+		<Autori>
+			<Autor Jmeno="Žamboch Miroslav"/>
+		</Autori>
+		<Nazev>Čas žít, čas zabíjet</Nazev>
+		<Nakladatel>Triton</Nakladatel>
+		<RokVydani>2010</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="978-80-7335-345-2">
+		<Autori>
+			<Autor Jmeno="Lasica Milan"/>
+		</Autori>
+		<Nazev>Dopisy Emilovi</Nazev>
+		<Nakladatel>Leda</Nakladatel>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Fejetony</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="80-237-0087-1">
+		<Autori>
+			<Autor Jmeno="Wodehouse Pelham Grenville"/>
+		</Autori>
+		<Nazev>Výborně, Jeevesi</Nazev>
+		<Nakladatel>Ivo Železný</Nakladatel>
+		<RokVydani>1994</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" ISBN="80-7116-626-X">
+		<Autori>
+			<Autor Jmeno="Wodehouse Pelham Grenville"/>
+		</Autori>
+		<Nazev>Případů se ujímá Jeeves</Nazev>
+		<Nakladatel>Ivo Železný</Nakladatel>
+		<RokVydani>1993</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha Jazyk="cs" cs-kod="28-061-87">
+		<Autori>
+			<Autor Jmeno="Ryan Patrick"/>
+		</Autori>
+		<Nazev>Jak jsem vyhrál válku</Nazev>
+		<Nakladatel>Naše vojsko</Nakladatel>
+		<RokVydani>1987</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+</Knihovna>

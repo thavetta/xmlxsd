@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 sp1 (http://www.altova.com) by Tomas Havetta (TRIGAN, spol. s r.o.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="Autor">
+		<xs:complexType>
+			<xs:attribute name="Jmeno" type="stringWithMax100Char" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Kniha">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Autori"/>
+				<xs:element ref="Nazev"/>
+				<xs:element ref="Nakladatel"/>
+				<xs:element ref="RokVydani"/>
+				<xs:element ref="Vazba"/>
+				<xs:element ref="Zanr"/>
+			</xs:sequence>
+			<xs:attribute name="cs-kod">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\d{2}-\d{3}-\d{2}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ISBN" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="(ISBN[-]*(1[03])*[ ]*(: ){0,1})*(([0-9Xx][- ]*){13}|([0-9Xx][- ]*){10})"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Jazyk" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="de"/>
+						<xs:enumeration value="en"/>
+						<xs:enumeration value="sk"/>
+						<xs:enumeration value="cs"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:assert test="(./@ISBN or ./@cs-kod) and not(./@ISBN and ./@cs-kod)"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Nazev" type="stringWithMax100Char"/>
+	<xs:element name="Autori">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Autor" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Knihovna">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Kniha" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RokVydani">
+		<xs:simpleType>
+			<xs:restriction base="xs:short">
+				<xs:minInclusive value="1800"/>
+				<xs:totalDigits value="4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Nakladatel" type="stringWithMax100Char"/>
+	<xs:element name="Vazba">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="pevna"/>
+				<xs:enumeration value="brozovana"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Zanr" type="stringWithMax100Char"/>
+	<xs:simpleType name="stringWithMax100Char">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

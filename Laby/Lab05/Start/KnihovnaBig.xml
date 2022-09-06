@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Knihovna xmlns="http://www.trigan.cz/Kurz/KnihovnaBig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.trigan.cz/Kurz/KnihovnaBig KnihovnaBig.xsd">
+	<Knihy>
+		
+
+	<Kniha id_nakladatele="1" ISBN="80-7199-060-4" jazyk="cs">
+		<Nazev>Orbis Pictus</Nazev>
+		<Autori>
+			<Autor id_autora="1"/>
+		</Autori>
+		<RokVydani>2002</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="2" ISBN="978-606-8364-01-8" jazyk="en">
+		<Nazev>His Higness Vlad Tepes Draculea</Nazev>
+		<Autori>
+			<Autor id_autora="2"/>
+		</Autori>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Historie realna</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="3" ISBN="978-0-8118-7831-9" jazyk="en">
+		<Nazev>F in Exams - The Very Best Totally Wrong Test Answers</Nazev>
+		<Autori>
+			<Autor id_autora="3"/>
+		</Autori>
+		<RokVydani>2011</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="4" ISBN="978-80-86739-39-7" jazyk="cs">
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Autori>
+			<Autor id_autora="4"/>
+			<Autor id_autora="5"/>
+		</Autori>
+		<RokVydani>2010</RokVydani>
+		<Vazba>pevna</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Fejetony</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="5" cs-kod="22-104-70" jazyk="cs">
+		<Nazev>Saturnin</Nazev>
+		<Autori>
+			<Autor id_autora="6"/>
+		</Autori>
+		<RokVydani>1970</RokVydani>
+		<Vazba>pevna</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="6" cs-kod="01-099-77" jazyk="cs">
+		<Nazev>Útěchy</Nazev>
+		<Autori>
+			<Autor id_autora="7"/>
+		</Autori>
+		<RokVydani>1977</RokVydani>
+		<Vazba>pevna</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Filozofie</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="7" ISBN="978-80-905053-0-8" jazyk="cs">
+		<Nazev>Drsný spasitel</Nazev>
+		<Autori>
+			<Autor id_autora="8"/>
+		</Autori>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="8" ISBN="978-80-7387-134-5" jazyk="cs">
+		<Nazev>Koniáš: Muž na stezce</Nazev>
+		<Autori>
+			<Autor id_autora="8"/>
+		</Autori>
+		<RokVydani>2008</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="8" ISBN="978-80-7387-376-9" jazyk="cs">
+		<Nazev>Čas žít, čas zabíjet</Nazev>
+		<Autori>
+			<Autor id_autora="8"/>
+		</Autori>
+		<RokVydani>2010</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Fantasy</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="9" ISBN="978-80-7335-345-2" jazyk="cs">
+		<Nazev>Dopisy Emilovi</Nazev>
+		<Autori>
+			<Autor id_autora="4"/>
+		</Autori>
+		<RokVydani>2012</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Fejetony</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="10" ISBN="80-237-0087-1" jazyk="cs">
+		<Nazev>Výborně, Jeevesi</Nazev>
+		<Autori>
+			<Autor id_autora="9"/>
+		</Autori>
+		<RokVydani>1994</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="10" ISBN="80-7116-626-X" jazyk="cs">
+		<Nazev>Případů se ujímá Jeeves</Nazev>
+		<Autori>
+			<Autor id_autora="9"/>
+		</Autori>
+		<RokVydani>1993</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+	<Kniha id_nakladatele="11" cs-kod="28-061-87" jazyk="cs">
+		<Nazev>Jak jsem vyhrál válku</Nazev>
+		<Autori>
+			<Autor id_autora="10"/>
+		</Autori>
+		<RokVydani>1987</RokVydani>
+		<Vazba>brozovana</Vazba>
+		<PocetStran>0</PocetStran>
+		<Zanr>Humor</Zanr>
+	</Kniha>
+</Knihy>
+<Nakladatele >
+	<Nakladatel id="1">
+		<Nazev>X-Egem</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="2">
+		<Nazev>Nova International Press</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="3">
+		<Nazev>Chronicle Books</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="4">
+		<Nazev>Nakladatelství Andrej Šťastný</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="5">
+		<Nazev>Československý spisovatel</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="6">
+		<Nazev>ODEON</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="7">
+		<Nazev>EF</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="8">
+		<Nazev>Triton</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="9">
+		<Nazev>Leda</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="10">
+		<Nazev>Ivo Železný</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="11">
+		<Nazev>Naše vojsko</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="12">
+		<Nazev>Argo</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="13">
+		<Nazev>Garamond</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+	<Nakladatel id="14">
+		<Nazev>MH</Nazev>
+		<Stat>CZ</Stat>
+	</Nakladatel>
+</Nakladatele>
+
+<Autori >
+	<Autor id="1">Kantorek Pavel</Autor>
+	<Autor id="2">Novac Elisaveta</Autor>
+	<Autor id="3">Benson Richard</Autor>
+	<Autor id="4">Lasica Milan</Autor>
+	<Autor id="5">Stránský Jiří</Autor>
+	<Autor id="6">Jirotka Zdeněk</Autor>
+	<Autor id="7">Seneca</Autor>
+	<Autor id="8">Žamboch Miroslav</Autor>
+	<Autor id="9">Wodehouse Pelham Grenville</Autor>
+	<Autor id="10">Ryan Patrick</Autor>
+	<Autor id="11">Horáková Pavla</Autor>
+	<Autor id="12">Kamen Jiří</Autor>
+	<Autor id="13">Bond Simon</Autor>
+	<Autor id="14">Herman Marek</Autor>
+	<Autor id="15">Červenák Juraj</Autor>
+</Autori>
+
+</Knihovna>

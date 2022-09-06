@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Knihovna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gopas.cz/kurz/xmlxsd/2019 Knihovna.xsd" xmlns="http://www.gopas.cz/kurz/xmlxsd/2019" xmlns:p="http://www.gopas.cz/kurz/popis/2019"
+xmlns:a="http://www.gopas.cz/kurz/test2019">
+	<Kniha ID="B-00001" ISBN="123456" Jazyk="cs" PocetStranek="491" Cena="299.90" Zapujcena="true">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Ďáblova pevnost</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2011</RokVydani>
+		<p:Popis>Historie a fikce</p:Popis>
+	</Kniha>
+	<Kniha ID="B-00002" ISBN="1234567" Jazyk="cs" PocetStranek="525" Cena="149" Zapujcena="false">
+		<Autori>
+			<Autor Jmeno="Juraj Červenák"/>
+		</Autori>
+		<Nazev>Strážcové Varadínu</Nazev>
+		<Nakladatel>BROKILON</Nakladatel>
+		<RokVydani>2009</RokVydani>
+		<p:Popis>Historie a fikce turecke valky</p:Popis>
+		<p:Odkaz>http://www.knihy.cz/cervenak/varadin.html</p:Odkaz>
+	</Kniha>
+	<Kniha ID="M-00003" ISBN="12345678" Jazyk="cs" Zapujcena="0">
+		<Autori>
+			<Autor Jmeno="Milan Lasica"/>
+			<Autor Jmeno="Jiří Stránský"/>
+		</Autori>
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Nakladatel>Andrej Šťastný</Nakladatel>
+		<RokVydani>neznámý</RokVydani>
+		<p:Popis>Pohled na existenci z jineho uhlu 1 2 3 4</p:Popis>
+		<a:Pokus>Cokoliv</a:Pokus>
+	</Kniha>
+</Knihovna>

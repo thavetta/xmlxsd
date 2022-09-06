@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Knihovnicka xmlns="http://www.trigan.cz/KurzAMF/Knihovnicka" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.trigan.cz/KurzAMF/Knihovnicka Knihovnicka.xsd">
+	<Kniha>
+		<Nakladatel>X-Egem</Nakladatel>
+		<Autor>Kantorek Pavel</Autor>
+		<Nazev>Orbis Pictus</Nazev>
+		<Rok>2002</Rok>
+		<Kod>80-7199-060-4</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Nova International Press</Nakladatel>
+		<Autor>Novac Elisaveta</Autor>
+		<Nazev>His Higness Vlad Tepes Draculea</Nazev>
+		<Rok>2012</Rok>
+		<Kod>978-606-8364-01-8</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Chronicle Books</Nakladatel>
+		<Autor>Benson Richard</Autor>
+		<Nazev>F in Exams - The Very Best Totally Wrong Test Answers</Nazev>
+		<Rok>2011</Rok>
+		<Kod>978-0-8118-7831-9</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Nakladatelství Andrej Šťastný</Nakladatel>
+		<Autor>Lasica Milan, Stránský Jiří</Autor>
+		<Nazev>Dopisy bez hranic</Nazev>
+		<Rok>2010</Rok>
+		<Kod>978-80-86739-39-7</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Československý spisovatel</Nakladatel>
+		<Autor>Jirotka Zdeněk</Autor>
+		<Nazev>Saturnin</Nazev>
+		<Rok>1970</Rok>
+		<Kod>22-104-70</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>ODEON</Nakladatel>
+		<Autor>Seneca</Autor>
+		<Nazev>Útěchy</Nazev>
+		<Rok>1977</Rok>
+		<Kod>01-099-77</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>EF</Nakladatel>
+		<Autor>Žamboch Miroslav</Autor>
+		<Nazev>Drsný spasitel</Nazev>
+		<Rok>2012</Rok>
+		<Kod>978-80-905053-0-8</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Triton</Nakladatel>
+		<Autor>Žamboch Miroslav</Autor>
+		<Nazev>Koniáš: Muž na stezce</Nazev>
+		<Rok>2008</Rok>
+		<Kod>978-80-7387-134-5</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Triton</Nakladatel>
+		<Autor>Žamboch Miroslav</Autor>
+		<Nazev>Čas žít, čas zabíjet</Nazev>
+		<Rok>2010</Rok>
+		<Kod>978-80-7387-376-9</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Leda</Nakladatel>
+		<Autor>Lasica Milan</Autor>
+		<Nazev>Dopisy Emilovi</Nazev>
+		<Rok>2012</Rok>
+		<Kod>978-80-7335-345-2</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Ivo Železný</Nakladatel>
+		<Autor>Wodehouse Pelham Grenville</Autor>
+		<Nazev>Výborně, Jeevesi</Nazev>
+		<Rok>1994</Rok>
+		<Kod>80-237-0087-1</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Ivo Železný</Nakladatel>
+		<Autor>Wodehouse Pelham Grenville</Autor>
+		<Nazev>Případů se ujímá Jeeves</Nazev>
+		<Rok>1993</Rok>
+		<Kod>80-7116-626-X</Kod>
+	</Kniha>
+	<Kniha>
+		<Nakladatel>Naše vojsko</Nakladatel>
+		<Autor>Ryan Patrick</Autor>
+		<Nazev>Jak jsem vyhrál válku</Nazev>
+		<Rok>1987</Rok>
+		<Kod>28-061-87</Kod>
+	</Kniha>
+</Knihovnicka>

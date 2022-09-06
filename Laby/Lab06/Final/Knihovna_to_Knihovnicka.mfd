@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="java"/>
+		<structure>
+			<children>
+				<component name="Knihovna" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view rbx="214" rby="291"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.trigan.cz/KurzAMF/Knihovna"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Knihovna" ns="1" expanded="1">
+										<entry name="Kniha" ns="1" outkey="8" expanded="1">
+											<entry name="cs-kod" type="attribute" outkey="9"/>
+											<entry name="ISBN" type="attribute" outkey="10"/>
+											<entry name="Autori" ns="1" outkey="11" expanded="1">
+												<entry name="Autor" ns="1" expanded="1">
+													<entry name="Jmeno" type="attribute" outkey="12"/>
+												</entry>
+											</entry>
+											<entry name="Nazev" ns="1" outkey="13"/>
+											<entry name="Nakladatel" ns="1" outkey="14"/>
+											<entry name="RokVydani" ns="1" outkey="15"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="Knihovna.xsd" inputinstance="Knihovna.xml" outputinstance="Knihovna.xml" instanceroot="{http://www.trigan.cz/KurzAMF/Knihovna}Knihovna"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="6" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="16"/>
+					</targets>
+					<view ltx="217" lty="347" rbx="263" rby="364"/>
+					<data>
+						<constant value=", " datatype="string"/>
+					</data>
+				</component>
+				<component name="string-join" library="core" uid="5" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="17"/>
+						<datapoint pos="1" key="18"/>
+						<datapoint pos="2" key="19"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="20"/>
+					</targets>
+					<view ltx="354" lty="266" rbx="475" rby="336"/>
+				</component>
+				<component name="Knihovnicka" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="657" rbx="866" rby="200"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.trigan.cz/KurzAMF/Knihovnicka"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Knihovnicka" expanded="1">
+										<entry name="Kniha" inpkey="1" expanded="1">
+											<entry name="Nakladatel" inpkey="2"/>
+											<entry name="Autor" inpkey="3"/>
+											<entry name="Nazev" inpkey="4"/>
+											<entry name="Rok" inpkey="5"/>
+											<entry name="Kod" inpkey="6"/>
+											<entry name="Kod" inpkey="7" clone="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="Knihovnicka.xsd" outputinstance="Knihovnicka.xml" instanceroot="{http://www.trigan.cz/KurzAMF/Knihovnicka}Knihovnicka" userdefinedschemalocation="Knihovnicka.xsd" sps="Knihovnicka.sps"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="19"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
