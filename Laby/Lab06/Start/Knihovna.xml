@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2016 sp1 (http://www.altova.com) by Tomas Havetta (TRIGAN, spol. s r.o.) -->
-<Knihovna xmlns="http://www.trigan.cz/KurzAMF/Knihovna">
+<Knihovna xmlns="http://www.trigan.cz/KurzAMF/Knihovna" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.trigan.cz/KurzAMF/Knihovna Knihovna.xsd">
 	<Kniha ISBN="80-7199-060-4" Jazyk="cs">
 		<Autori>
 			<Autor Jmeno="Kantorek Pavel"/>
